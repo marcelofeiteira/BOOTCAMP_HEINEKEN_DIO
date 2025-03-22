@@ -1,6 +1,7 @@
-#  Bootcamp Heineken ![heineken](https://github.com/user-attachments/assets/e07596d4-bcd8-4773-b781-797ccce842b7)
+<img src="https://github.com/user-attachments/assets/7ef0925f-f96c-459a-9199-62b9b1b258b5" alt="HEIA AS-0eb5aa36" width="50">
+Bootcamp Heineken 
 
-E-commerce (Modelo EER)
+# E-commerce (Modelo EER)
 
 ## 📖 Sobre o Projeto  
 
@@ -24,17 +25,18 @@ A estrutura do banco de dados é representada pelo diagrama abaixo, que detalha 
 
 ## 📂 Estrutura do Banco de Dados  
 
-
 O banco de dados é composto por diversas entidades, organizadas da seguinte forma:  
 
-- **Cliente**  
-- **Endereço**  
-- **Pedido**  
-- **Produto**  
-- **Fornecedor**  
-- **Vendedor**  
-- **Pagamento**  
-- **Entrega**  
-- **ItemPedido** *(tabela intermediária para a relação N:M entre Pedido e Produto)*  
+- **Cliente**
+- **Endereco**
+- **Pedido**
+- **Pagamento**
+- **Entrega**
+- **Produto**
+- **Estoque**
+- **Fornecedor**
+- **Vendedor**
 
-Para mais detalhes, consulte o arquivo [`diagrama_eer.md`](diagrama_eer.md).  
+Arquivo em PDF 
+
+
