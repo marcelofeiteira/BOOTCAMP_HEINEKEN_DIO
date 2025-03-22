@@ -1,4 +1,6 @@
-# 📦 Bootcamp Heineken - E-commerce (Modelo EER)
+#  Bootcamp Heineken ![heineken](https://github.com/user-attachments/assets/e07596d4-bcd8-4773-b781-797ccce842b7)
+
+E-commerce (Modelo EER)
 
 ## 📖 Sobre o Projeto  
 
