@@ -37,6 +37,7 @@ O banco de dados é composto por diversas entidades, organizadas da seguinte for
 - **Fornecedor**
 - **Vendedor**
 
-Arquivo em PDF 
+Arquivo em PDF [📄 EER E-COMMERCE BOOTCAMP DIO.pdf](https://github.com/marcelofeiteira/BOOTCAMP_HEINEKEN_DIO/blob/main/EER_ECOMMERCE/EER%20E-COMMERCE%20BOOTCAMP%20DIO.pdf)
+
 
 
