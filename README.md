@@ -18,9 +18,10 @@ O modelo foi projetado para atender às principais necessidades de um e-commerce
 
 A estrutura do banco de dados é representada pelo diagrama abaixo, que detalha **entidades, atributos e seus relacionamentos**:  
 
-![Diagrama EER](caminho_para_imagem.png) <!-- Substitua pelo caminho real da imagem do diagrama -->
+![EER E-COMMERCE BOOTCAMP DIO_pages-to-jpg-0001](https://github.com/user-attachments/assets/5814973c-9196-4af1-b7d4-80d77b49b1f1)
 
 ## 📂 Estrutura do Banco de Dados  
+
 
 O banco de dados é composto por diversas entidades, organizadas da seguinte forma:  
 
