@@ -72,4 +72,4 @@ A estrutura do banco de dados é representada pelo diagrama abaixo, que detalha 
 
 ![EER OFICINA BOOTCAMP DIO_pages-to-jpg-0001](https://github.com/user-attachments/assets/02ef90bf-b752-4bdd-873f-699d9d6acf3f)
 
-Arquivo em PDF [📄 EER E-COMMERCE BOOTCAMP DIO.pdf](https://github.com/marcelofeiteira/BOOTCAMP_HEINEKEN_DIO/blob/main/EER_OFICINA/EER%20E-COMMERCE%20BOOTCAMP%20DIO.pdf)
+Arquivo em PDF [📄 EER OFICINA BOOTCAMP DIO.pdf](https://github.com/marcelofeiteira/BOOTCAMP_HEINEKEN_DIO/blob/main/EER_OFICINA/EER%20OFICINA%20BOOTCAMP%20DIO.pdf)
