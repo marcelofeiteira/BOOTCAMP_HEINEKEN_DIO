@@ -1,0 +1,51 @@
+id_client;id_payment;id_order;type_payment;status_payment;limitavailable
+1;1;1;Boleto;Pago;1000.00
+2;2;2;Cartao;Aguardando;1500.00
+3;3;3;Dois Cartoes;Pago;2000.00
+4;4;4;Boleto;Aguardando;2500.00
+5;5;5;Cartao;Pago;3000.00
+6;6;6;Dois Cartoes;Pago;3500.00
+7;7;7;Boleto;Aguardando;4000.00
+8;8;8;Cartao;Pago;4500.00
+9;9;9;Dois Cartoes;Pago;5000.00
+10;10;10;Boleto;Aguardando;5500.00
+11;11;11;Cartao;Pago;6000.00
+12;12;12;Dois Cartoes;Pago;6500.00
+13;13;13;Boleto;Aguardando;7000.00
+14;14;14;Cartao;Pago;7500.00
+15;15;15;Dois Cartoes;Aguardando;8000.00
+16;16;16;Boleto;Pago;8500.00
+17;17;17;Cartao;Pago;9000.00
+18;18;18;Dois Cartoes;Aguardando;9500.00
+19;19;19;Boleto;Pago;10000.00
+20;20;20;Cartao;Aguardando;10500.00
+21;21;21;Dois Cartoes;Pago;11000.00
+22;22;22;Boleto;Pago;11500.00
+23;23;23;Cartao;Aguardando;12000.00
+24;24;24;Dois Cartoes;Pago;12500.00
+25;25;25;Boleto;Pago;13000.00
+26;26;26;Cartao;Aguardando;13500.00
+27;27;27;Dois Cartoes;Pago;14000.00
+28;28;28;Boleto;Aguardando;14500.00
+29;29;29;Cartao;Pago;15000.00
+30;30;30;Dois Cartoes;Pago;15500.00
+31;31;31;Boleto;Aguardando;16000.00
+32;32;32;Cartao;Pago;16500.00
+33;33;33;Dois Cartoes;Pago;17000.00
+34;34;34;Boleto;Aguardando;17500.00
+35;35;35;Cartao;Pago;18000.00
+36;36;36;Dois Cartoes;Pago;18500.00
+37;37;37;Boleto;Aguardando;19000.00
+38;38;38;Cartao;Pago;19500.00
+39;39;39;Dois Cartoes;Aguardando;20000.00
+40;40;40;Boleto;Pago;20500.00
+41;41;41;Cartao;Pago;21000.00
+42;42;42;Dois Cartoes;Aguardando;21500.00
+43;43;43;Boleto;Pago;22000.00
+44;44;44;Cartao;Pago;22500.00
+45;45;45;Dois Cartoes;Aguardando;23000.00
+46;46;46;Boleto;Pago;23500.00
+47;47;47;Cartao;Pago;24000.00
+48;48;48;Dois Cartoes;Aguardando;24500.00
+49;49;49;Boleto;Pago;25000.00
+50;50;50;Cartao;Aguardando;25500.00

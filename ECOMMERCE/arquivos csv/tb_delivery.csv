@@ -1,0 +1,11 @@
+id_order;tracking_code;status_delivery;estimated_delivery;actual_delivery
+1;TRK0001;Entregue;2025-04-01;2025-04-01
+2;TRK0002;Entregue;2025-04-02;2025-04-03
+3;TRK0003;Em transporte;2025-04-05;NULL
+4;TRK0004;Aguardando envio;2025-04-08;NULL
+5;TRK0005;Cancelado;2025-04-06;NULL
+6;TRK0006;Entregue;2025-04-03;2025-04-04
+7;TRK0007;Em transporte;2025-04-09;NULL
+8;TRK0008;Entregue;2025-04-04;2025-04-05
+9;TRK0009;Aguardando envio;2025-04-10;NULL
+10;TRK0010;Entregue;2025-04-05;2025-04-06

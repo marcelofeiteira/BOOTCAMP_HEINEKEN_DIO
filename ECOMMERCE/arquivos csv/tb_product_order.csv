@@ -1,0 +1,64 @@
+id_poproduct;id_poorder;poquantity;postatus
+1;1;3;Disponivel
+2;1;2;Sem Estoque
+3;2;1;Disponivel
+4;3;5;Sem Estoque
+5;3;2;Disponivel
+6;4;3;Sem Estoque
+7;4;4;Disponivel
+8;5;1;Sem Estoque
+9;5;3;Disponivel
+10;6;2;Sem Estoque
+11;6;3;Disponivel
+12;7;5;Sem Estoque
+13;7;2;Disponivel
+14;8;3;Sem Estoque
+15;8;4;Disponivel
+16;9;1;Sem Estoque
+17;9;2;Disponivel
+18;10;5;Sem Estoque
+19;10;3;Disponivel
+20;11;1;Sem Estoque
+21;11;4;Disponivel
+22;12;2;Sem Estoque
+23;12;3;Disponivel
+24;13;5;Sem Estoque
+25;13;2;Disponivel
+26;14;1;Sem Estoque
+27;14;4;Disponivel
+28;15;2;Sem Estoque
+29;15;3;Disponivel
+30;16;5;Sem Estoque
+31;16;1;Disponivel
+32;17;3;Sem Estoque
+33;17;4;Disponivel
+34;18;2;Sem Estoque
+35;18;3;Disponivel
+36;19;5;Sem Estoque
+37;19;2;Disponivel
+38;20;3;Sem Estoque
+39;20;4;Disponivel
+40;21;1;Sem Estoque
+41;21;5;Disponivel
+42;22;2;Sem Estoque
+43;22;3;Disponivel
+44;23;1;Sem Estoque
+45;23;4;Disponivel
+46;24;3;Sem Estoque
+47;24;5;Disponivel
+48;25;1;Sem Estoque
+49;25;2;Disponivel
+50;26;5;Sem Estoque
+51;26;1;Disponivel
+52;27;2;Sem Estoque
+53;27;4;Disponivel
+54;28;3;Sem Estoque
+55;28;5;Disponivel
+56;29;1;Sem Estoque
+57;29;2;Disponivel
+58;30;4;Sem Estoque
+59;30;3;Disponivel
+60;31;2;Sem Estoque
+61;31;5;Disponivel
+62;32;3;Sem Estoque
+63;32;4;Disponivel
