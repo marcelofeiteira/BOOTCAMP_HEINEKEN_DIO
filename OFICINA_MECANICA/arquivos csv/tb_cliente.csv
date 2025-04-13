@@ -1,0 +1,11 @@
+nome;tipo_cliente;cpf;cnpj;endereco;email;telefone
+Joao Silva;PF;12345678901;;Rua Um, 100;joao@email.com;11999999999
+Maria Souza;PF;32165498700;;Rua Dois, 200;maria@email.com;11988888888
+Oficina Top;PJ;;12345678000195;Rua Tres, 300;oficina@email.com;11333333333
+Auto Center Max;PJ;;98765432000188;Rua Quatro, 400;auto@email.com;11444444444
+Carlos Lima;PF;98765432100;;Rua Cinco, 500;carlos@email.com;11222222222
+Amanda Rocha;PF;14725836901;;Rua Seis, 600;amanda@email.com;11911112222
+Revisacar;PJ;;11223344000177;Rua Sete, 700;revisacar@email.com;1133221100
+Pedro Martins;PF;78945612300;;Rua Oito, 800;pedro@email.com;11987654321
+Top Car;PJ;;22334455000166;Rua Nove, 900;topcar@email.com;1133112211
+Sandra Melo;PF;96385274100;;Rua Dez, 1000;sandra@email.com;11944445555

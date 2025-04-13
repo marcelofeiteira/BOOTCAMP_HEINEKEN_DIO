@@ -1,0 +1,11 @@
+id_cliente;id_equipe;placa;modelo;ano;cor
+1;1;ABC1234;Fusca;1980;Preto
+2;2;DEF5678;Gol;2010;Azul
+3;3;GHI9876;Civic;2015;Prata
+4;4;JKL6543;Palio;2012;Branco
+5;5;MNO2468;Fiorino;2018;Vermelho
+6;6;PQR1357;Uno;2014;Cinza
+7;1;STU8642;Celta;2008;Preto
+8;2;8;Sandero;2016;Azul
+9;3;9;Corolla;2019;Prata
+10;4;10;Fiesta;2011;Branco

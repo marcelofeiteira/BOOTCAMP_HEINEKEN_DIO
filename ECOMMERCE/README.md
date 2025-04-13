@@ -91,7 +91,6 @@ Um pagamento → está associado a um pedido.
 
 Uma entrega → está vinculada a um pedido.
 
-Resumo da Estrutura
 ## 🧠 Resumo da Estrutura
 
 | Entidade    | Atributos Principais                         | Relacionamentos                                                  |
@@ -104,17 +103,6 @@ Resumo da Estrutura
 | Estoque     | id_prod_storage, quantity, location          | N produtos ↔ N locais de armazenamento                           |
 | Pagamento   | id_payment, type, status, limitavailable     | 1 pagamento → 1 pedido                                           |
 | Entrega     | id_delivery, tracking_code, status           | 1 entrega → 1 pedido                                             |
-
-✅ Conclusões e Benefícios
-🔐 Integridade referencial com uso extensivo de chaves estrangeiras
-
-🔄 Suporte a vendas por múltiplos vendedores
-
-🧾 Registro de pagamentos múltiplos e flexíveis
-
-🚚 Controle completo de entregas e rastreamento
-
-🔍 Estrutura robusta para análises futuras com queries SQL e BI
 
 ---
 
@@ -194,6 +182,16 @@ FROM tb_products_supplier PS
 JOIN tb_supplier S ON PS.id_psupplier = S.id_supplier
 JOIN tb_products P ON PS.id_pproduct = P.id_product;
 ```
+✅ Conclusões e Benefícios
+🔐 Integridade referencial com uso extensivo de chaves estrangeiras
+
+🔄 Suporte a vendas por múltiplos vendedores
+
+🧾 Registro de pagamentos múltiplos e flexíveis
+
+🚚 Controle completo de entregas e rastreamento
+
+🔍 Estrutura robusta para análises futuras com queries SQL e BI
 
 
 👨‍💻 Autor
