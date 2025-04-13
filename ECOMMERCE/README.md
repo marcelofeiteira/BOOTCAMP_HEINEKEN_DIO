@@ -49,7 +49,7 @@ A modelagem foi feita com foco em **eficiência, normalização e integridade do
 
 ## 📌 Diagrama EER
 
-![Diagrama EER](BOOTCAMP_HEINEKEN_DIO\ECOMMERCE\EER\DiagramaEcommerceDio.png)
+![Diagrama EER](https://raw.githubusercontent.com/marcelofeiteira/BOOTCAMP_HEINEKEN_DIO/main/ECOMMERCE/EER/DiagramaEcommerceDio.png)
 
 ## 📂 Dados Ficticios para Inserção
 
@@ -115,6 +115,86 @@ Resumo da Estrutura
 🚚 Controle completo de entregas e rastreamento
 
 🔍 Estrutura robusta para análises futuras com queries SQL e BI
+
+---
+
+### 🧩 Foco no Desafio
+
+**Objetivo:**
+> Refine o modelo apresentado acrescentando os seguintes pontos:
+
+#### 📌 **Cliente PJ e PF** – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
+    - O modelo possui campo com tipo de cliente e atributos distintos para CPF e CNPJ.
+  
+#### 📌 **Pagamento** – Pode ter cadastrado mais de uma forma de pagamento;
+    - O modelo possui tabela de pagamentos com atributo de tipo de pagamento.
+  
+#### 📌 **Entrega** – Possui status e código de rastreio;
+    - A estrutura de tabela de entrega possui os atributos `status_delivery` e `tracking_code`.
+
+#### 📌 Quantos pedidos foram feitos por cada cliente?
+> **R:** Em média 1.6 pedidos por cliente.
+
+```sql
+SELECT AVG(QTD_PEDIDOS) 
+FROM (
+    SELECT 
+        CONCAT(B.fname, ' ', lname) AS NOME_CLIENTE, 
+        COUNT(0) AS QTD_PEDIDOS
+    FROM tb_orders AS A
+    INNER JOIN tb_clients AS B ON A.id_order_client = B.id_client
+    GROUP BY 1
+    ORDER BY QTD_PEDIDOS DESC
+) AS TEMP;
+```
+
+---
+
+#### 📌 Algum vendedor também é fornecedor?
+> **R:** Sim, 4 deles também são fornecedores — representando 20% dos vendedores.
+
+```sql
+SELECT DISTINCT id_seller 
+FROM tb_seller AS A
+INNER JOIN tb_supplier AS B ON A.cnpj = B.cnpj;
+```
+
+---
+
+#### 📌 Relação de produtos, fornecedores e estoques
+> **R:** Query que traz todos os produtos, seus fornecedores, a quantidade fornecida, o estoque e o local de armazenamento.
+
+```sql
+SELECT 
+    P.id_product,
+    P.pname AS product_name,
+    S.id_supplier,
+    S.socialname AS supplier_name,
+    PS.quantity AS quantity_supplied,
+    ST.id_prod_storage,
+    ST.storage_location,
+    ST.quantity AS quantity_in_storage
+FROM tb_products AS P
+INNER JOIN tb_products_supplier AS PS ON P.id_product = PS.id_pproduct
+INNER JOIN tb_supplier AS S ON PS.id_psupplier = S.id_supplier
+LEFT JOIN tb_storage_location AS SL ON P.id_product = SL.id_lproduct
+LEFT JOIN tb_products_storage AS ST ON SL.id_lstorage = ST.id_prod_storage;
+```
+
+---
+
+#### 📌 Relação de nomes dos fornecedores e nomes dos produtos
+> **R:** Lista fornecedores e os produtos fornecidos.
+
+```sql
+SELECT 
+    S.socialname AS fornecedor,
+    P.pname AS produto
+FROM tb_products_supplier PS
+JOIN tb_supplier S ON PS.id_psupplier = S.id_supplier
+JOIN tb_products P ON PS.id_pproduct = P.id_product;
+```
+
 
 👨‍💻 Autor
 Marcelo Feiteira
